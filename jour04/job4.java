@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class job4 {
     public static void main(String[] args) {
-        long start = System.currentTimeMillis(), end, total;
+        long start, end, total;
         int num, i = 0;
 
         Scanner scanner = new Scanner(System.in);
@@ -11,6 +11,7 @@ public class job4 {
         scanner.close();
         System.out.println();
 
+        start = System.currentTimeMillis();
         while (i < num) {
             i++;
         }

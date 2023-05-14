@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class job5 {
     public static void main(String[] args) throws InterruptedException {
-        long start = System.currentTimeMillis(), end, total;
+        long start, end, total;
         int num;
 
         Scanner scanner = new Scanner(System.in);
@@ -11,6 +11,7 @@ public class job5 {
         scanner.close();
         System.out.println();
 
+        start = System.currentTimeMillis();
         Thread thread1 = new Thread(() -> {
             int i = 0;
 
